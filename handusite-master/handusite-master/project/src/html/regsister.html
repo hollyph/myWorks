@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册页面</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/regsister.css">
+	
+</head>
+<body>
+	<div id="head"></div>
+	<div class="banimg">
+        <div class="wrap">
+            <a class = 'ban_a' href="#"><img src="../img/loginbg1.jpg" alt=""></a>
+        </div>
+	</div>
+	<div class="regsister">
+        <div class="reg_left f-fl">
+            <p class = "d_login">已是韩都衣舍用户：<input type="button" value = '直接登录'></p>
+            <div class="regbg">
+                <img src="../img/regimg.png" alt="">
+            </div>
+             <div class="subscric ">
+                   <form action="" name = 'form1'>
+                       <input type="text" name = 'value' />
+                       <button></button>
+                   </form>
+             </div>
+        </div>
+        <div class="reg_right f-fl">
+             <div class="r_top">               
+                 <p class = 'f-fl one'><span class = 'numone'>1</span>选择注册方式：</p>
+                  <p class = 'btn f-fl'>
+	                  <input class = 'pbtn' type="button" value = '使用手机注册' />
+	                  <input class = 'ebtn' type="button" value = '使用邮箱注册'/>
+                  </p>
+	             <div class = 'reg_tip'>
+	                 
+	                 <div class="tipcont">使用手机号注册再享手机专属券
+	                    
+	                    <span class = 'jt'></span>
+	                    <span></span>
+	                 </div>	                
+	             </div>            
+             </div>
+             <div class="r_bottom">
+                <div class="barrage">
+                    <div class="ycode">
+                         <p ><span class = 'close' >&times;</span></p>
+                         <p>请填写图片上的字母或数字:</p>
+                         <p class= 'fill'><input class = 'icode' type="text"><a href="javascript:void(0);"><img src="../img/yzm1.jpg" alt=""></a></p>
+                         <a href="javascript:void(0);">确定</a>
+                    </div>
+                </div>
+                <form action="" class = 'reg_form'>
+                     <p class = 'one'><span class = 'numone'>2</span>填写您的信息：</p>                  
+                     <p class = 'r_com'>
+                         <label for="phone">您的手机号:</label>
+                         <input type="text" id = 'phone' name = "phone" maxlength="11" />
+                         <input class = 'syzm' type="button" value = '发送验证码'/>
+                         <span class = 'error'></span>
+                         <i></i>
+                     </p>
+                     <p class = 'r_com r_tips fgray'>
+							请输入您在注册时使用的手机号码,若当前号码不用/丢失，或无法收到验证码?<a href="#">其他验证方式</a>
+					 </p>
+                     <p class ='yzm r_com'>
+                         <label for="check">验证码:</label>
+                         <input type="text" id = 'check' name = 'yzm'>
+                         <span class = 'error'></span>
+                         <i></i>
+                     </p>	
+                     <p class = 'r_com'>
+                         <label for="password">密码:</label>
+                         <input type="password" id = 'password' name = 'psw' />
+                         <span class = 'error'></span>
+                         <i></i>
+                     </p>
+                     <p class="r_com fgray">6-16位字符，可使用字母、数字或符号的组合
+                     </p>
+                     <p class = 'r_com'>
+                         <label for="psw1">确认密码:</label>
+                         <input type="password" id = 'psw2' name = 'psw1' />
+                         <span class = 'error'></span>
+                         <i></i>
+                     </p>
+                     <p class="r_com proc">
+                        <input type="checkbox" name = 'info'>我已看过并接受
+                        <a href="#">《用户协议》</a>
+                     </p>
+                     <p class = 'r_reg'> <input type="button" value = '同意协议并注册'/></p>
+                </form>
+             </div>
+        </div>
+	</div>
+	<div id="foot"></div> 
+	<script src="../js/jquery-1.12.0.js"></script>
+	<script src = '../js/header.js'></script>
+    <script src="../js/cookie.js"></script>
+    <script src ='../js/regsister.js'></script>
+	<script>
+	      $(function(){
+	          $('#head').load('header.html',function(){
+	          	     header.init();
+	          	     scroll.init();
+	          });
+	         $('#foot').load('footer.html');
+	      })
+    </script>
+</body>
+</html>

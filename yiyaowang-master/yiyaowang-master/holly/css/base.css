@@ -1,0 +1,44 @@
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0; font-family:"微软雅黑"; font-size:12px;}
+table{border-collapse:collapse;border-spacing:0;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+h1,h2,h3,h4,h5,h6,caption,th{text-align:left;font-weight:normal;}
+i,cite,em,var,address,dfn{font-style:normal;}
+li{list-style:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;-webkit-appearance: none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+input[type="button"],input[type="submit"]{-webkit-appearance: none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+del,ins,u,s,a{text-decoration:none;}
+a{
+	color:black;
+}
+input{
+	outline:none;
+}
+
+.f-cb { zoom: 1;}
+.f-cb:after { display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; content: "";}
+.f-dn { display: none;}
+.f-db { display: block;}
+.f-dbb { display: block !important;}
+.f-fl { float: left;}
+.f-fr { float: right;}
+.f-oh { overflow: hidden;}
+.f-pr { position: relative;}
+.f-pa { position: absolute;}
+.f-tac { text-align: center;}
+.ml_10{margin-left:10px;}
+.wrap{
+	width:1200px;
+	margin:0 auto;
+	/*overflow:hidden;*/
+}
+.banner,.main,.footer{
+	overflow:hidden;
+	min-width:1200px;
+	
+}
+
+.bb{
+	border-bottom:1px solid #e6e6e6;
+}

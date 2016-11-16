@@ -1,0 +1,199 @@
+.footer .wrap{
+	overflow:hidden;
+}
+.f-top{
+	background:#f0f0f0;
+	margin-top:80px;
+	margin-bottom:50px;
+	height:180px;
+}
+.f-top a{
+    margin:40px 40px 0 40px;
+    display:inline-block;
+    float:left; 
+    height:115px;   
+}
+.f-top .fta1{
+	width:248px;
+    
+	background:url(../images/icon_gonggaob.png) no-repeat 0 0;
+}
+.f-top .fta2{
+	width:208px;
+	background:url(../images/icon_gonggaob.png) no-repeat -360px 0;
+}
+.f-top .fta3{
+	width:200px;
+	background:url(../images/icon_gonggaob.png) no-repeat -696px 0;
+}
+.f-top .fta4{
+	width:192px;
+	background:url(../images/icon_gonggaob.png) no-repeat right 0;
+}
+
+.fdl{
+	width:343px;
+	height:108px;
+	padding:20px 0 20px 40px ;
+	background:#f0f0f0;
+	margin-right:20px;
+	float:left;
+}
+.fdl dt{
+	float:left;
+}
+.fdl dd h3{
+	font-size:20px;
+	color:#c7a774;
+	font-weight:normal;
+	margin-bottom:5px;
+}
+.fdl dd{
+	float:left;
+	margin-left:20px;
+}
+.fdl dd p{
+	line-height:20px;
+	height:20px;
+
+}
+
+.f-nav .wrap{
+	height:192px;
+    padding-top:28px;
+
+}
+
+.pl-40{
+	padding-left:40px;
+}
+.ndl{
+	width:130px;	
+	margin-left:4px;
+	margin-right:10px;
+	float:left;
+	
+}
+.ndl dt{
+	font-size:16px;
+	color:#5e5e5e;
+	margin-bottom:10px;
+	height:20px;
+	font-weight:bold;
+
+}
+.ndl dd{
+	height:24px;
+	line-height:24px;
+	
+}
+.ndl dd a{
+	color:#999;
+}
+.ndl dd a:hover{
+	text-decoration:underline;
+	color:#333;
+}
+
+.time{
+	width:286px;
+	padding:15px 0;
+	float:right;
+	border-left:1px solid #eee;
+	text-align:center;
+}
+.time h3{
+	font-size:18px;
+	font-weight:700px;
+	color:#c7a774;
+	margin-bottom:10px;
+}
+.time p {
+	color:#999;
+	height:18px;
+	line-height:18px;
+
+}
+
+.about{
+	height:118px;
+}
+.about .wrap{
+	padding:10px 0;
+}
+.about .ap1{
+	height:24px;
+	line-height:24px;
+}
+.about .ap1 a{
+   margin:0 4px;
+
+}
+.about .ap1 a:hover{
+	text-decoration:underline;
+	color:red;
+}
+.pimg{
+	padding:10px 0 0 10px;
+	overflow:hidden;
+}
+.pimg a{
+    width:100px;
+    height:40px;
+    display:inline-block;
+    float:left;
+    margin-right:7px;
+} 
+.pimg .pa1{
+	background:url(../images/outherLogo.png) no-repeat 0 0;
+}
+.pimg .pa2{
+	background:url(../images/outherLogo.png) no-repeat -110px 0;
+}
+.pimg .pa3{
+	background:url(../images/outherLogo.png) no-repeat -220px 0;
+}
+.pimg .pa4{
+	background:url(../images/outherLogo.png) no-repeat -330px 0;
+}
+.pimg .pa5{
+	background:url(../images/outherLogo.png) no-repeat -440px 0;
+}
+.pimg .pa6{
+	background:url(../images/outherLogo.png) no-repeat -550px 0;
+}
+.pimg .pa7{
+	background:url(../images/outherLogo.png) no-repeat -660px 0;
+}
+.pimg .pa8{
+	background:url(../images/outherLogo.png) no-repeat -770px 0;
+}
+.pimg .pa9{
+	background:url(../images/outherLogo.png) no-repeat -880px 0;
+}
+.pimg .pa10{
+	width:117px;
+	background:url(../images/ap.png) no-repeat 0 0;
+}
+
+.f-bottom{
+	height:84px;
+	padding-top:14px;
+}
+.pb{
+	line-height:16px;
+	height:16px;
+	color:#5e5e5e;
+}
+.pb a{
+	 color:#5e5e5e;;
+}
+.pb a:hover{
+	color:#f00;
+	text-decoration:underline;
+}
+.pv{
+    line-height:16px;
+    margin-top:6px;
+    color:#5e5e5e;
+}

@@ -1,0 +1,115 @@
+.lbanner{
+	min-width:1200px;
+	overflow: hidden;
+}
+.limg>li{
+    height:160px;
+    width:100%;
+}
+.limg1{
+   background:url(img/TP_01.jpg) no-repeat center 0;
+}
+.limg2{
+   background:url(img/TP_02.jpg) no-repeat center 0;
+}
+.limg3{
+   background:url(img/TP_03.jpg) no-repeat center 0;
+}
+.limg4{
+   background:url(img/TP_04.jpg) no-repeat center 0;
+}
+.limg5{
+   background:url(img/TP_05.jpg) no-repeat center 0;
+}
+
+/* ----------------main--------------------- */
+.main{
+	min-width:1200px;
+	overflow:hidden;
+	
+}
+.wrap1{
+	margin:0 100px;
+	min-height:430px;
+}
+.listcat{
+	height:20px;
+	margin: 20px 0;
+	line-height: 20px;
+}
+.listcat>a{
+    margin-right:10px;
+    padding: 0 10px;
+}
+
+.sort{
+	height:30px;
+	border:1px solid #ddd;
+	line-height:30px;
+}
+.sort_set>li{
+	height:30px;
+	border-right:1px solid #ddd;
+	line-height:30px;
+	text-align:center;
+	width:80px;
+    float:left;	
+}
+.sort_set>li.selected{
+	background: #FAFAFA;
+}
+.sort_set>li>a>i{
+	width:8px;
+	height:10px;
+	display: inline-block;
+	background:url(img/arrs.png) no-repeat left top;
+	margin-left: 4px;
+}
+
+/* ----------------------列表---------------------- */
+
+.allList{
+	padding-top:10px;
+}
+.wrapbox{
+	width:240px;
+	margin:0 13px 20px 0;
+	float:left;
+}
+.itembox{
+	border:1px solid #ddd;
+	width:222px;
+	padding:8px 8px 0 8px;
+	/* height:280px; */
+}
+.itembox>a{
+	width:222px;
+	height:222px;
+	display: block;
+}
+.itembox>a>img{
+	width:100%;
+	height:100%;
+}
+.allprice{
+	color:#c00;
+	height:30px;
+	margin-bottom:6px;
+	text-align: center;
+    margin-top: 10px;
+}
+.newprice{
+	font-size: 20px;
+	margin-right:10px;
+}
+.newprice>i{
+	font-size:12px;
+	font-weight: bold;
+}
+.oldprice{
+	color:#666;
+}
+.boxactive{
+	border:2px solid #c00;
+	padding:6px 7px 0 7px;
+}

@@ -1,0 +1,382 @@
+.shopdetail{
+	padding:5px;
+	min-width:1200px;
+	overflow: hidden;
+}
+.loc{
+	margin:10px 0 20px 0;
+	line-height:26px;
+	text-indent:5px;
+	color:#333;
+}
+.loc>i{
+	width:6px;
+	height:9px;
+	display: inline-block;
+	background:url(img/leftjt.png) no-repeat;
+	margin-left:8px;
+}
+/* ---------------det_left---------------- */
+.det_left{
+	width:175px;
+	margin-right:15px;
+}
+.hotlist{
+	width:170px;
+	margin:5px 0;
+}
+.hotcate{
+	width:170px;
+	height:16px;
+	padding-bottom: 13px;
+	background: url(img/cate0.png) no-repeat;
+}
+.fenlei{
+	width:170px;
+}
+.fenlei>li{
+	height:27px;
+	width:134px;
+	padding-left:27px;
+	background:url(img/arr.png) no-repeat 14px 6px;
+}
+.fenlei>li>a:hover{
+	color:#c80a28;
+}
+.delimg{
+	display: block;
+	width:170px;
+	height:125px;
+}
+
+.newpub{
+	width:170px;
+	margin-top:30px;
+}
+.newpub>h3{
+	width:170px;
+	height:19px;
+	padding-bottom: 5px;
+	background: url(img/newp.png) no-repeat;
+}
+.newlist{
+	width:158px;
+	padding:5px;
+	border:1px solid #ddd;
+}
+.newlist>li{
+	width:158px;
+	border-bottom: 1px dashed #ddd;
+	margin-bottom: 10px;
+
+}
+.newlist>li p{
+	margin-bottom:8px;
+}
+.boxc{
+	margin:0 25px;
+	width:108px;
+}
+.newlist>li>a{
+	width:158px;
+	height:158px;
+	display: block;
+}
+.newlist>li>a>img{
+	width:100%;
+	height:100%;
+}
+.describe{
+	width:108px;
+	height:14px;
+	overflow:hidden;
+}
+.newprice{
+	font-size:14px;
+	margin-left:2px;
+	margin-bottom: 8px;
+	height:25px;
+	line-height:25px;
+}
+.newlist>li del{
+	color:#999;
+	margin-left:3px;
+	line-height: 25px;
+	display: block;
+}
+/* ------------ det_right----------------------- */
+.det_right{
+	width:1000px;
+	/* border: 1px solid #ddd; */
+}
+.detr_top{
+	width:998px;
+	border:1px solid #ddd;
+	overflow: hidden;
+}
+.product_pic{
+	width: 481px;
+	height:628px;
+	border-right:1px dashed #ddd;
+	margin-right:10px;
+}
+.pimg{
+	width:480px;
+	height:480px;
+	position: relative;	
+}
+.pimg>img{
+	width:100%;
+	height:100%;
+}
+.productlist{
+	margin-left:45px;
+	padding-top: 10px;
+   /*  display: inline-block; */
+}
+.productlist>li{
+     width:72px;
+     height:72px;
+     border:1px solid #ddd;
+     margin-right:5px;
+     float:left;
+     position: relative;
+}
+.productlist>li>img{
+	width:100%;
+	height:100%;
+}
+.productlist>li>i{
+	width:0;
+	height:0;
+	border:8px solid #c80a28;
+	border-color:transparent;
+	border-bottom-color:#c80a28;
+	position: absolute;
+	top: -16px;
+    left: 28px;
+    display: none;
+}
+.productdetail{
+	width:500px;
+}
+.procontent{
+	margin:4px 4px 4px 20px;
+	padding-bottom: 10px;
+	border-bottom:1px solid #ddd;
+
+}
+.procontent>h3{
+    line-height:24px;
+    font-size:14px;
+    color:#333;
+    padding-bottom: 10px;
+   
+}
+.procontent>h3>a{
+	color:#c80a28;
+	display: block;
+	font-size:12px;
+}
+.pcon{
+	color: #777;
+    padding: 2px 0 0 0;
+    height:32px;
+    line-height:32px;
+    font-size:14px;
+    
+}
+.price>span{
+	font-size:18px;
+	color:#c80a28;
+}
+.itemnum>del{
+    font-weight:bold;
+}
+.star>span{
+	width:72px;
+	height:12px;
+	background: url(img/stars.png) no-repeat left -17px;
+	display: inline-block;
+	margin:0 20px;
+}
+.star>a{
+	color:#c80a28;
+	font-size:12px;
+	display:inline-block;
+	width:10px;
+	text-align: center;
+}
+.val{
+	width:476px;
+	margin:15px 4px 4px 20px;
+	border-bottom:1px solid #ddd;
+}
+.addgoods{
+	height:16px;
+	padding:0 0 10px 68px;
+	color: #c80a28;
+}
+
+.val>p{
+	height:27px;
+	margin-bottom:10px;
+
+	font-size:14px;
+}
+.size>span,.color>span{
+	display: inline-block;
+	height:23px;
+	border: 1px solid #ddd;
+    color: #333;
+    padding:0 23px;
+    line-height:23px;
+    margin-right:10px;
+    position: relative;
+    cursor: pointer;
+}
+.size>span.i_active,.color>span.i_active{
+     border-color: #c80a28;
+}
+.size>span>i,.color>span>i{
+	display:block;
+	width:16px;
+	height:16px;
+	background: url(img/selected.png) no-repeat;
+	position: absolute;
+	right:0;
+	bottom: 0;
+	display: none;
+}
+.color>span{
+	padding:0 26px;
+	margin-left:20px;
+}
+.quantity>input{
+    width:70px;
+    height:26px;
+    border:1px solid #ddd;
+    text-align: center;
+
+} 
+.quantity>span{
+	width:12px;
+	height:12px;
+	margin:7px 0;
+	border:1px solid #ddd;
+	display: inline-block;
+	text-align: center;
+	line-height: 12px;
+	margin:0 12px;
+	cursor: pointer;
+}
+.val>p.allbtn{
+	height:58px;
+	padding-left:68px;
+	width:408px;
+}
+.allbtn>a{
+	width:160px;
+	height:43px;
+	display: inline-block;
+	margin:0 20px 15px 0;
+}
+.btn1{
+	background: url(img/detail_buy.png) no-repeat;
+}
+.btn2{
+	background: url(img/addcart.png) no-repeat;
+}
+.comment{
+	width:998px;
+	border:1px solid #ededed;
+	height:35px;
+	padding-bottom: 3px;
+	background:#f5f3f0;
+}
+.tab{
+	background-color: #fff;
+    height: 34px;
+    border-bottom: 1px solid #ededed;
+}
+.tab>li{
+
+    height: 32px;
+    margin-top: -1px;
+    width:138px;
+    float: left;
+    font-size:14px;
+    line-height:32px;
+    text-align: center;
+    border-left:1px solid #ededed;
+}
+.tab>li.liactive{
+	border-top:4px solid  #c80a28;
+	background:#f5f3f0;
+
+}
+.contents{
+	width:1000px;
+	height:auto;
+	position:relative;
+}
+.contents>li{
+
+	width:760px;
+	padding:0 120px;
+    display: none;
+    cursor: pointer;
+}
+.goodsattr{
+	border:1px solid #ededed;
+	background:#f5f3f0;
+	width:750px;
+	height:57px;
+	padding-bottom:20px;
+	margin:10px 0;
+}
+.goodsattr>ul{
+    padding:0 20px 18px 20px;
+    width:710PX;
+    overflow: hidden;
+}
+.goodsattr>ul>li{
+    margin:10px 15px 0 0;
+    line-height: 18px;
+    height:18px;
+    width:220px;
+    float:left;
+}
+.showimg{
+	margin-top:10px;
+}
+.showimg a{
+	display:block;
+	float:left;
+}
+/* ---------------放大镜----------------- */
+.large {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: move;
+    display: none;
+}
+
+.bimg {
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    left: 490px;
+    overflow: hidden;
+    display: none;
+    z-index:1000;
+}
+
+.bimg img {
+    position: absolute;
+}

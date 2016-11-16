@@ -1,0 +1,290 @@
+.banimg{
+	height:60px;
+	margin-top:20px;
+	min-width:1200px;
+	text-align:center;
+}
+.ban_a{
+	display: inline-block;
+}
+.ban_a>img{
+	float:left;
+	width:1100px;
+}
+/* ---------------reg_left------------------- */
+.regsister{
+	margin:0 auto;
+	width:1100px;
+	overflow: hidden;
+}
+.reg_left{
+	width:360px;
+	margin:40px 50px 0 30px;
+}
+.reg_right{
+	width:600px;
+}
+.subscric{
+	width:430px;
+	height:97px;
+	position: relative;
+/* 	margin:8px 0 0 33px; */
+}
+.subscric>form{
+	position: absolute;
+    bottom: 35px;
+    left: 5px;
+}
+.subscric>form input{
+	width:250px;
+	height:25px;
+	line-height:25px;
+	border:1px solid #ddd;
+	float: left;
+}
+.subscric>form button{
+	width:70px;
+	height:22px;
+	margin:2px 8px;
+	background: url(img/footer00.png) no-repeat;
+	display:inline-block;
+	border:none;
+	float:left;
+}
+.d_login{
+	height:43px;
+	width:360px;
+}
+.d_login>input[type ='button']{
+	width: 103px;
+    height: 29px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    margin: 8px 0 0 10px;
+    cursor: pointer;
+    background: url(img/news_login.png) no-repeat right -211px;
+}
+/* --------------r_right------------------------ */
+.reg_right{
+	/*height: 500px;*/
+    border-left: 1px dashed #DDD ;
+    margin: 30px 0 0 0px;
+    padding-left: 50px;
+}
+
+.r_top{
+	width: 609px;
+    border-bottom: #ddd 1px dashed;
+    height: 120px;
+    line-height: 50px;
+    position: relative;
+
+}
+.one{
+	height:50px;
+	line-height: 50px;
+}
+.numone{
+	width:22px;
+	height:22px;
+	background: url(img/news_login.png) no-repeat left -326px;
+	display: inline-block;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    margin-right:10px;
+}
+.btn{
+	width:316px;
+	height:38px;
+	margin-top:8px;
+}
+.btn>input{
+    width:135px;
+    height:38px;
+    border:none;
+    margin-left:10px;
+    float: left;
+    cursor:pointer;
+}
+.pbtn{
+	background: url(img/news_login.png) no-repeat left -102px;
+}
+.ebtn{
+	background: url(img/news_login.png) no-repeat left -151px;
+}
+.reg_tip{
+	position: absolute;
+	left:106px;
+	float:left;
+    top: 50px;  
+}
+.tipcont{
+	height:50px;
+	line-height:50px;
+	border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #fffac3;
+    position: relative;
+   
+}
+.tipcont>span{
+	display: block;
+	width:0;
+	height:0;
+	border:10px solid #fffac3;
+	border-color:transparent;
+	border-bottom-color:#fffac3;
+	position:absolute;
+	left:40%;
+	bottom: 49px;
+}
+.tipcont>span.jt{
+	border-bottom:12px solid #ddd;
+	bottom: 50px;
+	
+}
+
+/* ------------r_bottom----------------- */
+.r_bottom{
+	width:609px;
+	margin-top:20px;
+	position: relative;
+}
+.reg_form{
+	width:609px;
+}
+.r_com{
+	height:33px;
+	width:600px;
+	line-height: 33px;
+}
+.r_com>input[type = 'text'],.r_com>input[type = 'password']{
+	width:210px;
+	height:36px;
+	background:url(img/shopping_login.png) no-repeat left -180px;
+	line-height:33px;
+	border:none;
+	text-indent:4px;
+}
+.yzm{
+	margin:10px 0;
+}
+.r_com>input.syzm{
+	background: url(img/news_login.png) no-repeat -256px -107px;
+    width: 116px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    margin: 3px 0 0 5px;
+    color: #7b7b7b;
+    border: none;
+}
+.r_com>label{
+	display:inline-block;
+	width:115px;
+	height:33px;
+	text-align: right;
+	color: #393939;
+}
+.proc{
+	float: left;
+    color: #393939;
+    text-indent: 115px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.r_tips>a,.proc>a{
+	color:#bf0000;
+}
+.r_reg>input{
+	background: url(img/news_login.png) no-repeat 0 -51px;
+    width: 171px;
+    height: 43px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    margin: 10px 0 0 120px;
+    cursor: pointer;
+}
+.fgray{
+	color:#7b7b7b;
+	text-indent:115px;
+}
+/* ---------------------------------- */
+.r_com>i{
+    background:url(img/correct.gif) no-repeat;
+    width:16px;
+    height:16px;
+    display: inline-block;
+    display: none;
+}
+.error{
+	color:#bf0000;
+	display: none;
+}
+
+/* ----------弹窗------------ */
+.barrage{
+	width:250px;
+	position: absolute;
+	height:160px;
+	top:90px;
+	background: rgba(10,10,10,0.8);
+	padding:0 0 0 30px  ;
+	left:60px;
+	display: none;
+}
+.ycode{
+	width:250px;
+	height:160px;
+	text-align:center;
+
+}
+.ycode>p{
+	height:24px;
+	line-height:24px;
+	color:#fff;
+	text-align: left;
+}
+.close{
+	float:right;
+	color:#fff;
+	font-weight:900;
+	font-size:40px;
+}
+.ycode>p.fill{
+    margin-top:10px;
+    height:40px; 
+    line-height:40px;   
+}
+.fill>input{
+	width:117px;
+	height:30px;
+	border:1px solid #ddd;
+	float: left;
+}
+.fill>a{
+	width:86px;
+	height:32px;
+	display: inline-block;
+	float: left;
+}
+.ycode>a{
+	display:inline-block;
+	width:60px;
+	height:30px;
+	border-radius: 5px;
+	line-height:30px;
+	text-align: center;
+	background:#fff;
+	margin-top: 20px;
+}
+.fill>a>img{
+	width:100%;
+	height:100%;
+}

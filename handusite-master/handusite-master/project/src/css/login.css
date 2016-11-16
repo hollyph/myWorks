@@ -1,0 +1,149 @@
+.banimg{
+	height:60px;
+	margin-top:20px;
+	min-width:1200px;
+	text-align:center;
+}
+.ban_a{
+	display: inline-block;
+}
+.ban_a>img{
+	float:left;
+}
+.news_login{
+	height:470px;
+	min-width:1200px;
+}
+.login_left{
+	width:420px;
+	height:290px;
+	margin:40px 40px 0 50px;
+	padding-top:25px;
+}
+.login_right{
+	width:527px;
+	height:470px;
+	padding-left:80px;
+	border-left: 1px dashed #eee;
+}
+
+.formlist{
+	padding:20px 40px;
+	border:1px solid #EEE;
+	margin-top:25px;
+	box-shadow: 2px 1px 5px rgba(0,0,0,0.4);
+	width:300px;
+	height:329px;
+}
+.login_title{
+	height:30px;
+	font-size:19px;
+	border-bottom: 1px solid #eee;
+	color:#666;
+	margin:0;
+}
+.loginform{
+	width:300px;
+	height:258px;
+	margin-top:40px;
+}
+.p_com{
+	height:35px;
+	margin-top: 10px;
+	width:285px;
+	font-size: 14px;
+	color: #393939;
+	text-align:right;
+	padding-right:15px;
+}
+.p_com>input{
+	height:33px;
+	width:207px;
+	border: 1px solid #dedede;
+	padding:0;
+}
+.yzm{
+	height:33px;
+}
+.yzm>input{
+	width:120px;
+	height:30px;
+	border:1px solid #dedede;
+	margin-right: 6px;
+}
+.yzm>a{
+	width:86px;
+	height:31px;
+	display: inline-block;
+	float: right;
+}
+.yzm>a>img{
+	width:100%;
+	height:100%;
+}
+.submit{
+	margin-left: 70px;
+    height: 55px;
+    margin-bottom:20px;
+}
+.submit>span{
+    height:36px;
+    display: block;
+}
+.submit>input[type = 'button']{
+	border: none;
+    background: #BE0929;
+    width: 140px;
+    height: 35px;
+    color: #fff;
+    line-height: 35px;
+    text-align:center;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+.forget{
+	margin:10px 0 0 80px;
+	height:30px;
+	line-height:30px;
+}
+.forget>a{
+	margin:0 8px;
+	text-decoration: underline;
+	color: #565656;
+} 
+.chat{
+	width:529px;
+	height:29px;
+	margin:30px 0 15px 0;
+}
+.other{
+	width:84px;
+	height:29px;
+	line-height: 29px;
+
+}
+.chattools>a{
+	margin-right:10px;
+	height:30px;
+	width:98px;
+	display: inline-block;
+}
+.otherchat1{
+    background: url(img/news_login.png) no-repeat left -528px;
+}
+.otherchat2{
+    background: url(img/news_login.png) no-repeat -111px -528px;
+}
+.otherchat3{
+    background: url(img/news_login.png) no-repeat -222px -528px;
+}
+.otherchat4{
+    background: url(img/news_login.png) no-repeat -333px -528px;
+}
+
+.error{
+	color:#c00;
+	display: block;
+	line-height:36px;
+	height:36px;
+}

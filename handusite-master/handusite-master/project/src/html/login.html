@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户登录</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/login.css">
+ 
+</head>
+<body>
+  <div id="head"></div>
+
+	<div class="banimg">
+        <div class="wrap">
+            <a class = 'ban_a' href="#"><img src="../img/loginbg1.jpg" alt=""></a>
+        </div>
+	</div>
+	<div class="news_login">
+	     <div class="wrap">
+	         <div class="login_left f-fl">
+                 <img src="../img/loginbg2.png" alt="">
+	         </div>
+	         <div class="login_right f-fl">
+                  <div class = 'formlist'>
+                       <h3 class="login_title">用户登录</h3>
+                       <form action="" class="loginform">
+                             <p class = 'p_com'>
+                             <label for="username">用户名:</label>
+                             <input type="text" id = 'username' name = "username" placeholder="邮箱地址/手机号" />
+                             </p>
+                             <p class = 'p_com'>
+                             <label for="password">密码:</label>
+                             <input type="password" id = 'password' name = 'psw' />
+                             </p>
+                             <p class ='yzm p_com'>
+                             <label for="check">验证码:</label>
+                             <input type="text" id = 'check' name = 'yzm'>
+                             <a href="#"><img src="../img/yzm1.jpg" alt=""></a>
+                             </p>	
+                             <p class="submit">
+                                <span class = 'error'></span>
+                                <input class = 'loginbtn' type="button" value = '立即登录'/>
+                                <input class = 'autologin' type="checkbox" name = 'info'>保存登录信息
+                             </p>
+                             <p class = 'forget'><a href="#">注册</a>|<a href="#">忘记密码？</a></p>
+                       </form>
+                       
+                  </div>
+                  <div class="chat">
+                           <p class="other f-fl">其他登录方式：</p>
+                           <p class = 'chattools f-fl'>
+                             <a href="#" class = 'otherchat1'></a>
+                             <a href="#" class = 'otherchat2'></a>
+                             <a href="#" class = 'otherchat3'></a>
+                             <a href="#" class = 'otherchat4'></a>
+                           </p>
+                       </div>
+	         </div>
+         </div>
+	</div>
+  <div id="foot"></div>
+  <script src="../js/jquery-1.12.0.js"></script>
+  <script src = '../js/header.js'></script>
+  <script src="../js/cookie.js"></script>
+  <script src = '../js/login.js'></script>
+  <script>
+      $(function(){
+        $('#head').load('header.html',function(){
+            header.init();
+        });
+        $('#foot').load('footer.html');
+      })
+  </script>
+   
+</body>
+</html>

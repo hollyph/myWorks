@@ -1,0 +1,164 @@
+.infor{
+	height:914px;
+}
+.in_t{
+	height:40px;
+	line-height:40px;
+}
+.in_t a{
+    color:#1985d9;
+}
+.in_t a:hover{
+
+	text-decoration: underline;
+}
+.m_l{
+	width:180px;
+/* 	height:614px; */
+	float:left;
+	background:#f7f7f7;
+	border:1px solid #ded8d8;
+	padding-top:10px;
+
+}
+.dlist{
+  
+}
+.dlist dt{
+	height:40px;
+	line-height:40px;
+	padding-left:20px;
+	font-size:14px;
+	font-weight:bold;
+}
+.dlist dd{
+	height:40px;
+	line-height:40px;
+	padding-left:32px;
+}
+dd.active{
+	border:1px solid #ded8d8;
+	border-left:4px solid #0083ce;
+	border-right:none;
+	font-weight:bold;
+	color:#0083ce;
+	background:#fff;
+}
+.m_r{
+	width:1008px;
+	margin-left:10px;
+
+}
+.title{
+    height:44px;
+    border-bottom:1px solid #0083ce;
+    border-left:1px solid #0083ce;
+
+}
+.title li{
+	height:43px;
+	border:1px solid #ded8d8;
+	border-left:none;
+	border-bottom:none;
+	background:#f7f7f7;
+	float:left;
+	width:138px;
+	text-align:center;
+	line-height:43px;
+}
+.title li.active{
+	background:#fff;
+	border-color:#0083ce;
+	height:44px;
+}
+
+.form1{
+	padding-top:10px;
+	padding-left:56px;
+	font-size:14px;
+	position:relative;
+}
+.photo{
+	position:absolute;
+	/* background:url(../images/pimg.jpg) no-repeat; */
+	right:58px;
+	top:10px;
+}
+.form1>p{
+	display:block;
+	height:34px;
+	margin-bottom:10px;
+	line-height:34px;
+	font-size:14px;
+}
+.i1{
+	color:#f00;
+}
+.form1>p a{
+	color:#0083ce;
+	margin-left:22px;
+}
+.form1 span{
+	margin-left:22px;
+}
+.Tinput{
+	height:30px;
+	margin-left:22px;
+}
+.tips{
+	color:#ff9900;
+	/* background:url(../images/reg_icon.png) no-repeat left -60px; */
+	line-height:34px;
+	height:34px;
+	font-size:12px;
+	display:block;
+}
+.tips em{
+   background:url(../images/reg_icon.png) no-repeat left -60px;
+   width:16px;
+   height:16px;
+   display:inline-block;
+   margin-top:12px;
+   float:left;
+}
+.sbtn{
+	width:136px;
+	height:42px;
+	background:#0099f1;
+	border:none;
+	color:#fff;
+	font-size:16px;
+	margin-left:54px;
+}
+.add{
+	width:346px;
+}
+input[type=radio],input[type=checkbox],select{
+    margin-left:22px;
+} 
+.form1 .psp{
+	margin-left:0;
+	float:left;
+}
+.selp{
+	width:80px;
+	height:34px;
+	position:relative;
+	border:1px solid #e6e6e6;
+	display:inline-block;
+	float:left;
+}
+.year{
+	width:80px;
+	height:34px;
+	position:absolute;
+}
+.selecty{
+	position:absolute;
+	width:80px;
+	height:34px;
+	top:0;
+	left:0;
+	opacity:0;
+	filter:alpha(opacity=100);
+}

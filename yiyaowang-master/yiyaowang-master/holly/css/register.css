@@ -1,0 +1,265 @@
+.r_wrap{
+	width:990px;
+	margin:0 auto;
+}
+.top{
+	overflow:hidden;
+	height:98px;
+
+}
+.top a{
+	display:block;
+	width:180px;
+	height:113px;
+}
+.reg{
+	height:440px;
+	border:1px solid #e6e6e6;
+	border-top:2px solid #0083ce;
+	background:url(../images/breg.jpg) no-repeat right bottom;
+}
+.r_h3{
+	font-size:18px;
+	font-weight:normal;
+	line-height:58px;
+	padding:0 18px 0 50px;
+}
+
+.ablue{
+	color:#0083ce;
+}
+.ablue:hover{
+	text-decoration: underline;
+}
+.r_form{
+    margin-left:100px;
+    width:342px;
+}
+.r_div{
+	width:342px;
+	height:70px;
+	position:relative;
+}
+.n_empty{
+	height:12px;
+	display:block;
+	position:absolute;
+	right:-12px;
+	top:13px;
+	line-height:12px;
+	background: url(../images/reg_icon.png) no-repeat right -60px;
+    padding-right: 24px;
+    margin-right:12px;
+    display:none;
+
+}
+.r_it{
+	width:320px;
+	height:18px;
+	border:1px solid #e6e6e6;
+	display:block;
+	padding:10px;
+	text-indent:30px;
+	font-size:14px;
+	vertical-align:center;
+	background-color: transparent;
+}
+.rp{
+	line-height: 28px;
+	color:#a5a5a5;
+	display:none;
+	font-size:14px;
+	width:342px;
+}
+
+.it3{
+	background-color:#f3f3f3;
+
+}
+.icon{
+	width:32px;
+	height:24px;
+	display: inline-block;	
+	position:absolute;
+	background:url(../images/reg_icon.png) no-repeat 0 0;
+	top:7px;
+}
+.icon1{
+	
+	background-position:8px -123px;
+	
+}
+.icon2{
+	background-position: 8px -154px;
+}
+.icon3{
+    background-position: 8px -154px;
+ }
+ .checked1{
+    margin-right:6px;
+    margin-top:2px;
+    float:left;
+}
+.regbtn{
+	width:340px;
+	height:38px;
+	border:none;
+	background:#0099F1;
+	border:1px solid transparent;
+	border-bottom:2px solid #0083ce;
+	cursor:pointer;
+	margin-bottom:22px;
+	/*margin-top:12px;*/
+    color:#fff;
+    font-size:20px;
+} 
+.other{
+
+	margin-left:100px;
+	width:342px;
+	padding-bottom:20px;
+	overflow: hidden;
+} 
+.a_icon{
+    width:40px;
+    height:40px;
+    display:inline-block;
+    float:left;
+    margin-right:16px;
+}
+.a1{
+	background:url(../images/zhifu.png) no-repeat 0 0;
+}
+.a1:hover{
+	background:url(../images/zhifu.png) no-repeat 0 -51px;
+}
+.a2{
+	background:url(../images/zhifu.png) no-repeat -46px 0;
+}
+.a2:hover{
+	background:url(../images/zhifu.png) no-repeat -46px -51px;
+}
+.a3{
+	background:url(../images/zhifu.png) no-repeat -94px 0;
+}
+.a3:hover{
+	background:url(../images/zhifu.png) no-repeat -94px -51px;
+}
+.a4{
+	background:url(../images/zhifu.png) no-repeat -142px 0;
+}
+.a4:hover{
+	background:url(../images/zhifu.png) no-repeat -142px -51px;
+}
+.a5{
+	background:url(../images/zhifu.png) no-repeat -190px 0;
+}
+.a5:hover{
+	background:url(../images/zhifu.png) no-repeat -190px -51px;
+}
+.a6{
+	background:url(../images/zhifu.png) no-repeat right 0;
+}
+.a6:hover{
+	background:url(../images/zhifu.png) no-repeat right -51px;
+}
+.bottom{
+	/*height:66px;*/
+	overflow:hidden;
+	padding-top:44px;
+	padding-bottom:20px;
+}
+.ap1{
+	height:28px;
+	line-height:28px;
+}
+.ap1 a{
+   margin:0 6px;
+   color:#666;
+}
+.ap1 a:hover{
+	text-decoration:underline;
+	color:#0083ce;
+}
+.pv{
+	color:#5e5e5e;
+	margin-top:6px;
+}
+.error{
+	color:#e72418;
+}
+.code1,.code2{
+	display:none;
+}
+.code{
+	height:18px;
+	border:1px solid #e6e6e6;
+	line-height:18px;
+	font-size:14px;
+	padding:10px;
+	margin-right:10px;
+	float:left;
+}
+.icode{
+	width:150px;		
+}
+.cbtn{
+	color:#0099F1;
+	line-height:38px;
+	margin-left:10px;
+}
+.iclick{
+	float: left;
+    margin-left: 10px;
+}
+a:hover{
+	text-decoration: underline;
+}
+.mcode{
+	width:160px;
+}
+.mbtn{
+	width:120px;
+	height:38px;
+	border:1px solid #e6e6e6;
+	margin-right:20px;
+	text-align:center;
+	float:right;
+	background: #fff;
+    cursor: pointer;
+}
+.Scorrect{
+	background:url(../images/reg_icon.png) no-repeat right -1px;
+}
+.Scorrect1{
+	height:12px;
+	display:block;
+	position:absolute;
+	left:150px;
+	top:13px;
+	line-height:12px;
+	background: url(../images/reg_icon.png) no-repeat right -29px;
+    padding-right: 24px;
+    margin-right:12px;
+    display:none;
+
+}
+.safe{
+	text-align:right;
+}
+.safe span{
+	background:url(../images/safe.png) no-repeat 0 0;
+	width:92px;
+	height:14px;
+	display:inline-block;
+	float:right;
+	text-align:justify;
+	margin-top:7px;
+	line-height: 14px;
+    font-size: 14px;
+    color: #fff;
+}
+.spshow{
+	/*display:inline-block;*/
+	display:none;
+}

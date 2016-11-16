@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>列表页</title>
+	<link rel="stylesheet" href="../css/reset.css" />
+	<link rel="stylesheet" href="../css/base.css" />
+	<link rel="stylesheet" href="../css/common.css" />
+	<link rel="stylesheet" href="../css/itemlist.css" />
+</head>
+<body>
+	<div id="head"></div>
+	<div class="lbanner">
+          <ul class = 'limg'>
+          	<li class = 'limg1'></li>
+          	<li class = 'limg2'></li>
+          	<li class = 'limg3'></li>
+          	<li class = 'limg4'></li>
+          	<li class = 'limg5'></li>
+          </ul>
+	</div>
+	<div class="main wrap">
+        <div class="wrap1">
+             <h3 class = 'listcat'>
+  	            <a style = 'padding-left:0;' href="#">nanaday娜娜日记</a>
+  	            <a href="#">上装</a>
+  	            <a href="#">裙装</a>
+  	            <a href="#">裤装</a>
+             </h3>
+             <div class = 'sort'>
+                <ul class = 'sort_set f-fl'>
+                	<li class = 'selected'><a href="#">默认排序</a></li>
+                	<li><a href="#">上架时间<i></i></a></li>
+                	<li><a href="#">销量<i></i></a></li>
+                	<li><a href="#">价格<i></i></a></li>
+                </ul>
+             </div>
+             <div class="allList">
+             <!-- <div class="wrapbox">
+             <div class="itembox boxactive">
+                 <a href="#"><img src="../img/itemlist1.jpg" alt=""></a>
+                 <p class = 'allprice'><span class ='newprice'><i>￥</i>89</span><del class = 'oldprice'>￥238.00</del></p>
+             </div>
+             </div> -->
+             </div>
+        </div>
+	</div>
+	<div id="foot"></div>
+	<script src="../js/jquery-1.12.0.js"></script>
+	<script src = '../js/header.js'></script>
+    <script src="../js/cookie.js"></script>
+    <script src = '../js/itemlist.js'></script>
+    <script>
+	    $(function(){
+              $('#head').load('header.html',function(){
+              	      header.init();
+              });
+              $('#foot').load('footer.html');
+	    })
+    </script>
+</body>
+</html>
