@@ -2,7 +2,7 @@ $(function(){
 	var $all = $('.allList');
 	var count = 0;
 	$.ajax({
-		url:'itemlist.json',
+		url:'js/itemlist.json',
 		dataType:'json',
 		success:function(res){
 			// console.log(res);
